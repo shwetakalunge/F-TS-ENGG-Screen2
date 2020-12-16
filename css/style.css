@@ -258,9 +258,16 @@ footer div {
     border-radius: 50%;
     height:30px
 }*/
-.pagination {
+
+  .pagination {
     display: inline-block;
-    margin-left: 16px
+    margin-left: 12px;
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
 }
 
 .pagination a {
