@@ -230,6 +230,7 @@ td:nth-child(7) {
     color: #008CDB;
     -webkit-text-decoration-line: underline;
     text-decoration-line: underline;
+     word-break: break-all
 }
 
 footer div {
