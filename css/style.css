@@ -280,8 +280,8 @@ footer div {
 .pagination a:hover {
     background-color: #EB5A2C;
     color: white;
-    height: 30px;
-    width: 30px;
+    /*height: 30px;
+    width: 30px;*/
     border-radius: 50%;
 }
 
