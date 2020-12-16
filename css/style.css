@@ -87,7 +87,7 @@ h1 {
 }
 
 ul {
-  text-align: center
+    text-align: center
 }
 
 li {
@@ -261,7 +261,6 @@ footer div {
 .pagination {
     display: inline-block;
     margin-left: 16px
-
 }
 
 .pagination a {
@@ -269,14 +268,30 @@ footer div {
     float: left;
     padding: 8px 10px;
     text-decoration: none;
+    text-align: center;
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
     text-align: center
 }
 
 .pagination a:hover {
     background-color: #EB5A2C;
     color: white;
-    height: 40px;
-    width: 40px;
-
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
+}
+
+.pagination a:nth-child(2),
+.pagination a:nth-child(6),
+.pagination a:nth-child(7),
+.pagination a:nth-child(8),
+.pagination a:nth-child(9),
+.pagination a:nth-child(10),
+.pagination a:nth-child(11),
+.pagination a:nth-child(12) {
+    opacity: 0.1;
 }
